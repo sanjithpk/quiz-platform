@@ -1,6 +1,6 @@
-#Schema
+# Schema
 
-##Quizzes
+## Quizzes
 
 Name | Data Type
 ------------ | -------------
@@ -13,7 +13,7 @@ End Date | date
 First Question ID | integer
 Last Question ID | integer
 
-##Questions
+## Questions
 
 Name | Data Type
 ------------ | -------------
@@ -22,7 +22,7 @@ Quiz ID | integer
 First Question ID | integer
 Last Question ID | integer
 
-##Users
+## Users
 
 Name | Data Type
 ------------ | -------------
@@ -30,7 +30,7 @@ User ID | smallint(P)
 Name | name
 Email | text
 
-##Game
+## Game
 
 Name | Data Type
 ------------ | -------------
@@ -41,4 +41,4 @@ Question ID | integer
 Quiz ID | integer
 Score | smallint
 
-P -> Primary Key
+> P -> Primary Key
